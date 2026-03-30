@@ -4,10 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
 
-  app: {
-    baseURL: '/sentec-butler/',
-  },
-
   components: [
     {
       path: '~/components/ui',
